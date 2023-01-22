@@ -1,0 +1,22 @@
+*{ margin: 0%; padding: 0%; box-sizing: border-box;}
+.encabezado {  height: 80px; background-color: #9698ab; font-size: 22px; color: #ffffff; padding: 20px;}
+title { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+.logo { float: left}
+.barra { float: right}
+.encabezado ul li { list-style: none; display: inline-block; }
+.encabezado ul li a { text-decoration: none; color: #ffffff;}
+.encabezado li a:hover {color: #534340; text-decoration: underline #774e50; }
+main { height: 200vh;  width: 100%; background-color: #727ca1; background-size: cover;}
+img { width: 320px; height: 340px; object-fit: cover; border-radius: 20px 20px 0px 0px;}
+.contenedor { display: flex; justify-content: center; flex-wrap: wrap; gap: 50px; margin-bottom: 20px;}
+.contenedor div { box-shadow: 0px 0px 5px 0px; border-radius: 20px;}
+.contenedor div>:hover { background-color: #ECE8DD;}
+.information { height: 150px; display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 15px; }
+.information .precio { font-size: 20px; font-weight: 500px; }
+.information .precio span { font-size: 17px; font-weight: 300px;}
+.information button { background-color: #E1D7C6; width: 100px; height: 35; border-radius: 20px; border: none; font-size: 17px; font-weight: 300; cursor: pointer;}
+.carrito { filter: invert(100%); width: 45px; height: auto; background-color: #E1D7C6; border-radius: 20px;}
+section { height: 700px ; width: 100% ; background-color: #727ca1;}
+footer { background-color: #9698ab; text-align: center;  padding: 20px;;}
+div i { }
+.p1 {padding: 20px; }
